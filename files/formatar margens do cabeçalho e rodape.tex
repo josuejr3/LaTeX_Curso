@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[
+lmargin=0cm,
+tmargin=1.5cm,
+rmargin=0cm,
+bmargin=0.0cm
+]{geometry} 
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\title{Aula de Formatação de cabeçalho e rodapé}
+\author{Jonas Poli}
+\date{Abril 2023}
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+  
+
+\fancyfoot[C]{\thepage}
+\fancyfoot[C]{ \hrulefill \\ \thepage} % Rodapé
+
+\setlength{\headsep}{0cm}
+\setlength{\footnotesep}{0cm}
+\setlength{\footskip}{0.1cm}
+
+
+\begin{document}
+
+    \maketitle
+    
+    \section{Introduction}
+    
+    
+    Phasellus ultrices dignissim nisi. Mauris vulputate rhoncus tellus, id blandit nulla viverra pellentesque. Praesent erat ex, volutpat sit amet vulputate vitae, congue ut quam. Donec in felis ut lacus faucibus lobortis. Aliquam ut fringilla nibh, varius varius enim. Donec imperdiet enim sit amet eleifend ultricies. Nullam pulvinar ornare elit. Nam ut pretium arcu. Aenean ultrices, purus non ultrices feugiat, augue nisi gravida risus, vel elementum turpis tortor vitae libero. Maecenas risus elit, bibendum iaculis placerat eu, varius ut lectus. Donec non consectetur enim. In tincidunt rhoncus mauris ut sollicitudin. Curabitur semper hendrerit quam et pulvinar.
+    
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    Lorem ipsum dolor sit amet\footnote{Início do lorem}, consectetur adipiscing elit. Nulla rutrum neque leo, vel vestibulum dolor faucibus ut. Sed non fringilla purus. Pellentesque consectetur, erat mollis sodales blandit, tortor neque viverra tellus, sed sagittis massa tellus quis neque. Vestibulum sapien turpis, auctor id nisi quis\footnote{Meio do Lorem}, semper tristique tortor. Vestibulum vel augue non nunc tincidunt sagittis vel ut diam. Vivamus varius elementum mi. Duis ac porta augue. Donec tempor nibh sed efficitur vestibulum. In tortor magna, suscipit eget suscipit id, condimentum vel nisl. Maecenas ac auctor enim. Nulla vestibulum dui ut tempus placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas sagittis iaculis tortor. Nunc rhoncus sem vitae turpis hendrerit, non maximus massa rutrum. Aliquam felis eros, varius a rutrum a, elementum vel sapien\footnote{Fim do Lorem}.
+    
+    \section{Apresentação}
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \section{Definição}
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \section{Desenvolvimento}
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \section{Conclusão}
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+    
+    \lipsum[10-12]
+
+\end{document}
