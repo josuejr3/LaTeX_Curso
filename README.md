@@ -30,6 +30,3 @@ Este curso é perfeito para estudantes, pesquisadores, engenheiros e qualquer pe
   <strong>💻 Vamos codar, formatar e dominar o LaTeX juntos! 💻</strong>
 </p>
 
-<p align="center">
-  <a href="#conteúdo-do-curso" style="background-color:#4CAF50;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;">📂 Ver Conteúdo</a>
-</p>
